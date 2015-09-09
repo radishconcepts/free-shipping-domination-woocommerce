@@ -7,6 +7,9 @@
             "email": "coenjacobs@gmail.com"
         }
     ],
+    "autoload": {
+        "files": ["woocommerce-free-shipping-domination.php"]
+    },
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^4.8"
