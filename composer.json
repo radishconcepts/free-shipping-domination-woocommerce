@@ -1,0 +1,11 @@
+{
+    "name": "radishconcepts/woocommerce-free-shipping-domination",
+    "description": "If the free shipping method is available (either through coupon or minimum price requirement), this plugin disables all other shipping methods.",
+    "authors": [
+        {
+            "name": "Coen Jacobs",
+            "email": "coenjacobs@gmail.com"
+        }
+    ],
+    "require": {}
+}
