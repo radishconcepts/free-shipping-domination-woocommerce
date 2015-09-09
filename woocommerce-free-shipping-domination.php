@@ -8,7 +8,11 @@ Author URI: http://www.radishconcepts.com
 Version: 1.0
 */
 
-add_filter( 'woocommerce_package_rates', 'wcfsd_woocommerce_package_rates', 10, 1 );
+// Make sure the add_filter function exists before using it, so this file can
+// be included in unit tests where it won't exists
+if ( function_exists( 'add_filter' ) ) {
+	add_filter( 'woocommerce_package_rates', 'wcfsd_woocommerce_package_rates', 10, 1 );
+}
 
 /**
  * Filters the array storing all available shipping rates on checkout and cart
