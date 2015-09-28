@@ -12,6 +12,9 @@ Version: 1.0
 // be included in unit tests where it won't exists
 if ( function_exists( 'add_filter' ) ) {
 	add_filter( 'woocommerce_package_rates', 'wcfsd_woocommerce_package_rates', 10, 1 );
+
+	// This is the old filter, pre WooCommerce 2.1, for backwards compatibility
+	add_filter( 'woocommerce_available_shipping_methods', 'wcfsd_woocommerce_package_rates' , 10, 1 );
 }
 
 /**
