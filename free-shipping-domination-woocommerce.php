@@ -5,7 +5,7 @@ Plugin Name: Free Shipping Domination for WooCommerce
 Description: If the free shipping method is available (either through coupon or minimum price requirement), this plugin disables all other shipping methods.
 Author: Radish Concepts
 Author URI: http://www.radishconcepts.com
-Version: 1.0
+Version: 1.0.0
 */
 
 // Make sure the add_filter function exists before using it, so this file can
