@@ -9,7 +9,7 @@ class DefaultBehaviourTest extends PHPUnit_Framework_TestCase {
 			'another_test'    => 'another_test_value',
 			'and_another_one' => 'more test values'
 		);
-		$return = wcfsd_woocommerce_package_rates( $input );
+		$return = fsdwc_woocommerce_package_rates( $input );
 		$this->assertEquals( $input, $return );
 	}
 
@@ -19,7 +19,7 @@ class DefaultBehaviourTest extends PHPUnit_Framework_TestCase {
 		$input = array(
 			'free_shipping' => 'free_shipping_value'
 		);
-		$return = wcfsd_woocommerce_package_rates( $input );
+		$return = fsdwc_woocommerce_package_rates( $input );
 		$this->assertEquals( $input, $return );
 	}
 
@@ -31,7 +31,7 @@ class DefaultBehaviourTest extends PHPUnit_Framework_TestCase {
 			'free_shipping'   => 'free_shipping_value',
 			'and_another_one' => 'more test values'
 		);
-		$return = wcfsd_woocommerce_package_rates( $input );
+		$return = fsdwc_woocommerce_package_rates( $input );
 		$expected = array(
 			'free_shipping' => 'free_shipping_value'
 		);
