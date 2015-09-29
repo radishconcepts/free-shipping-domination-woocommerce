@@ -1,4 +1,4 @@
-# WooCommerce Free Shipping Domination
+# Free Shipping Domination for WooCommerce
 
 [![Build Status](https://img.shields.io/travis/radishconcepts/woocommerce-free-shipping-domination.svg?style=flat-square)](https://travis-ci.org/radishconcepts/woocommerce-free-shipping-domination)
 

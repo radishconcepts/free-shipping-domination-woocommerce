@@ -1,4 +1,4 @@
-=== WooCommerce Free Shipping Domination ===
+=== Free Shipping Domination for WooCommerce ===
 Contributors: radishconcepts
 Tags: ecommerce, e-commerce, commerce, woocommerce, shipping, free shipping
 Requires at least: 4.0
