@@ -8,7 +8,7 @@
         }
     ],
     "autoload": {
-        "files": ["woocommerce-free-shipping-domination.php"]
+        "files": ["free-shipping-domination-woocommerce.php"]
     },
     "require": {},
     "require-dev": {
