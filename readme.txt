@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-If the free shipping method is available (either through coupon or minimum price requirement), this plugin disables all other shipping methods.
+Disables all other shipping methods when the free shipping method is available (either through coupon or price requirement).
 
 == Description ==
 
