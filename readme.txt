@@ -31,5 +31,5 @@ You can find extensive documentation on [how to install plugins](http://codex.wo
 
 == Changelog ==
 
-= 1.0.0 =
+= 1.0.0 - 30/09/2015 =
 * Initial release
